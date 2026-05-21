@@ -251,6 +251,12 @@
         const App = () => {
             const projects = [
                 {
+                    name: "high-performance-task-queue",
+                    description: "Resilient asynchronous payment processing microservice engineered to mitigate double-charging. Implements strict idempotency checks, distributed state management, and robust error handling via exponential backoff, jitter, and Dead Letter Queues (DLQ). Integrated with end-to-end stress testing simulation.",
+                    stack: ["FastAPI", "Celery", "RabbitMQ", "Redis", "PostgreSQL", "Docker", "Locust"],
+                    link: "github.com/ezequielranieri/high-performance-task-queue"
+                },
+                {
                     name: "async-etl-framework",
                     description: "High-throughput asynchronous ETL pipeline framework leveraging Clean Architecture patterns. Engineered for non-blocking I/O operations, strict type-safety, and optimized memory processing using Polars.",
                     stack: ["Python", "asyncio", "Polars", "SQLAlchemy 2.0", "Docker", "GitHub Actions"],
